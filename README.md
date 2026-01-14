@@ -29,19 +29,19 @@ A **deep-sleep power management strategy** allows the device to periodically wak
 
 Each folder in this repository represents a milestone completed during the course, showing how functionality and system complexity were incrementally introduced:
 
-1. **Button Interrupt Input** (`01_button_interrupt/`)  
-   - Hardware interrupt-driven push button handling for responsive, low-power user input.
-
-2. **WiFi Medical Alert Button** (`02_medical_alert_button_webserver/`)  
+1. **WiFi Medical Alert Button** (`1medical_alert_button_sep18a/`)  
    - ESP32 web server prototype enabling network-based alert triggering.
 
-3. **Continuous Biometric Monitoring** (`03_biometric_monitor_continuous/`)  
+2. **Button Interrupt Input** (`2button_interrupt_oct2a/`)  
+   - Hardware interrupt-driven push button handling for responsive, low-power user input.
+
+3. **Continuous Biometric Monitoring** (`3medical_device_nov27c/`)  
    - Heart rate and SpO₂ monitoring with OLED visualization.
 
-4. **Low-Power Biometric Monitoring** (`04_low_power_biometric_monitor_sleep/`)  
+4. **Low-Power Biometric Monitoring** (`4medical_device_sleep_nov27a/`)  
    - Deep-sleep cycling to simulate wearable-style battery operation.
 
-5. **Biometric Monitoring with Fall Detection** (`05_biometric_monitor_fall_detection/`)  
+5. **Biometric Monitoring with Fall Detection** (`5falldetector_dec18a/`)  
    - Integration of accelerometer-based fall detection and safety alerts.
 
 This progression reflects a realistic medical device development workflow: **user input → alerting → sensing → power optimization → safety integration**.
@@ -60,11 +60,3 @@ This progression reflects a realistic medical device development workflow: **use
 ## Notes & Disclaimer
 This project was developed for **educational and prototyping purposes** as part of a university-level Medical Device Technology course. It is **not a clinical-grade medical device** and has not undergone medical calibration, validation, or regulatory review.
 
----
-
-## Future Improvements
-- Custom PCB and wearable enclosure  
-- Clinical-grade signal calibration  
-- BLE or data logging integration  
-- Power profiling and battery optimization  
-- Enhanced fall detection algorithms
